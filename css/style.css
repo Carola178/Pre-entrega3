@@ -1,122 +1,61 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
+.header {
+  background-color: lightblue;
+}
+.header__titulo {
+  color: cadetblue;
+  font-size: 3rem;
+  text-align: center;
+}
+.header__titulo__navbar {
+  color: cadetblue;
+  font-size: 1rem;
+}
+.header__titulo__navbar__nav-item {
+  color: lightskyblue;
+  font-size: 30px;
+  display: inline-block;
 }
 
-/* ---Header---- */
-
-.titulo-principal{
-    color: cadetblue;
-    font-size: 3rem;
-    text-align: center;
+.section-conteiner {
+  background-color: aliceblue;
 }
-.header{
-    background-color: lightblue;
+.section-conteiner__lanzamientos {
+  color: cadetblue;
+  font-size: 3rem;
+  text-align: center;
+  margin-left: 20px;
 }
-.navbar{
-    color: black;
+.section-conteiner__lanzamientos__texto {
+  text-align: center;
+  margin-top: 3rem;
+  color: cadetblue;
+  font-size: 2rem;
 }
-
-/* fin de mi header */
-
-/* section */
-
-.section-conteiner{
-    background-color: aliceblue;
-}
-.lanzamientos{
-    color: cadetblue;
-    font-size: 3rem;
-    text-align: center;
-    margin-left: 20px;
-}
-.texto-intro{
-    text-align: center;
-    margin-top: 3rem;
-    color: cadetblue;
-    font-size: 2rem;
+.section-conteiner__lanzamientos__texto__precios {
+  color: cadetblue;
+  font-size: 2rem;
+  text-align: center;
+  margin: 20px;
 }
 
-.precios{
-    color: cadetblue;
-    font-size: 2rem;
-    text-align: center;
-    margin:20px ;
+footer {
+  background-color: lightblue;
+}
+footer__natural {
+  color: cadetblue;
+  font-size: 5rem;
+  text-align: center;
+}
+footer__natural__nosotros {
+  color: cadetblue;
+  font-size: 1, 8rem;
+  text-align: center;
+}
+footer__natural__nosotros__contacto {
+  color: cadetblue;
+  font-size: 1, 8rem;
+  text-align: center;
+  margin: 2rem;
 }
 
-/* fin de mi section */
-
-/* footer */
-footer{
-    background-color: lightblue;
-}
-
-.sobre-nosotros{
-    color: cadetblue;
-    font-size: 1,8rem;
-    text-align: center;
-}
-.natural-footer{
-    color: cadetblue;
-    font-size: 5rem;
-    text-align: center;
-}
-.contacto-footer{
-    color: cadetblue;
-    font-size: 1,8rem;
-    text-align: center;
-    margin: 2rem;
-}
-/* fin de mi footer */
-
-/*comienzo section page2 */
-
-section{
-    background-color: aliceblue;
-}
-.increible-outlet{
-    color: cadetblue;
-    font-size: 3rem;
-    text-align: center;
-    margin-left: 20px;
-}
-.figure-caption{
-    color: cadetblue;
-    font-size: 2rem;
-    text-align: center;
-}
-/* fin section page2*/
-
-
-/* comienzo primer section page3 */
-.nuestros-productos{
-    color: cadetblue;
-    font-size: 3rem;
-    text-align: center;
-}
-.seccion-femenina{
-    color: cadetblue;
-    font-size: 3rem;
-    text-align: left;
-}
-.seccion-masculina{
-    color: cadetblue;
-    font-size: 3rem;
-    text-align: left;
-}
-/* comienzo de section page4 */
-.texto-info{
-    text-align: center;
-    margin-top: 3rem;
-    color: cadetblue;
-    font-size: 2rem;
-    margin-left: 1rem;
-}
-.propuesta{
-    text-align: center;
-    margin-top: 3rem;
-    color: cadetblue;
-    font-size: 2rem;
-    margin-left: 1rem;
-}
+/*# sourceMappingURL=style.css.map */
